@@ -1,0 +1,13 @@
+Treat this as a "Lessons Learned / Troubleshooting" log. It proves you understand the infrastructure, not just the "happy path."
+
+Title: Cloud Infrastructure Journal: Day 2 - Navigating DNS Private Resolver vs. Private DNS Zone & RBAC Constraints.
+
+Content:
+
+Objective: Deployment of devdept.local and integration with Private Resolver.
+
+The Conflict: Differentiating between the "Infrastructure" (Resolver) and the "Database" (Zone).
+
+The Blocker: Identified a PIM/RBAC restriction where the lab environment required Entra ID P2 for role elevation.
+
+Conclusion: Documenting the necessity of "Just-in-Time" access management when dealing with restricted cloud environments. This is a crucial observation for real-world production security.
