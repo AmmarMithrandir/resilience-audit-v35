@@ -1,0 +1,21 @@
+In your GitHub README.md, create a section called [Lab_Applied_Work].
+
+List the specific network or Linux tasks you performed during your NTUC training labs.
+Link this GitHub URL in your LinkedIn sub-line.
+
+Paste one block of code
+(even if it's just a simple Linux config or network ping script) 
+and write one sentence explaining why it matters for DC uptime. 
+That is your commit.
+
+Sample Entry: Lab Protocol ID: 8.1.2 - Cloud Automation & Resource Lifecycle
+Operational Context: Cloud+ (Exam CV0-004) validation.
+
+Core Objectives:
+Automation Logic: Executing scheduled lifecycle tasks (Power off/Deallocate/Start).
+IaC (Infrastructure as Code) Integrity: Validating JSON template dependency mapping (Resource cloning via container07 base).
+Scalability Attributes: Demonstrating "On-demand self-services" through template libraries.
+
+Troubleshooting Metadata:
+Identity Gating: PIM/RBAC restrictions required elevated Entra ID P2 activation (Standard procedure).
+Resolution Pattern: Utilized container07 JSON schema to bypass manual entry, ensuring environment parity between Dev and Staging.
